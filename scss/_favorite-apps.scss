@@ -1,0 +1,11 @@
+.main{
+    &__favorite-apps{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background: $primary1-color;
+        color: $secondary3;
+    }
+}

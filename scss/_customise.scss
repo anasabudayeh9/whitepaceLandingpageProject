@@ -1,0 +1,11 @@
+.main{
+    &__customise{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background: $secondary3;
+        color: $secondary4;
+    }
+}

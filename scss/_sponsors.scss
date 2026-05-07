@@ -1,0 +1,28 @@
+.main{
+    &__sponsors{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background: $secondary3;
+        color: $secondary4;
+;
+
+        ul{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 7rem;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+
+            li{
+                font-size: 5rem;
+            }
+        }
+    }
+}

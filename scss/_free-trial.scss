@@ -1,0 +1,36 @@
+.main{
+    &__free-trial{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: left;
+        padding-left: 1rem;
+        gap: 3rem;
+        background: $primary1-color;
+
+
+        h2{
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+
+        .main_btn{
+            margin-left: 1rem;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 3rem; 
+
+
+            li{
+                font-size: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+    }
+}

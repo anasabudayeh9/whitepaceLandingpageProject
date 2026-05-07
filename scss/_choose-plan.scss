@@ -1,0 +1,103 @@
+.main{
+    &__choose-plan{
+        padding-top: 9rem;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background: $secondary3;
+        color: $secondary4;
+        flex-grow: 1;
+        height: fit-content;
+    }
+
+    .dots{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 3rem auto;
+
+
+        li{
+            font-size: 8rem;
+            color: $primary2-color;
+        }
+
+        li:nth-child(2){
+            color: $primary1-color;
+        }
+    }
+}
+
+
+
+.card{
+    height: 100%;
+    position: relative;
+    background: $primary1-color;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    color: $secondary4;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+
+    &__title{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $secondary3;
+    }
+
+    &__price{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: left;
+        color: $secondary3;
+
+
+        span{
+            font-size: 1rem;
+            color: #888;
+        }
+
+    }
+
+    &__description{
+            font-size: 1.4rem;
+            color: $secondary3;
+            text-align: left;
+        }
+
+    &__features{
+        list-style: none;
+        padding: 0;
+
+        li{
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            color: $secondary3;
+            position: relative;
+            padding-left: 1.6rem;
+
+            &::before{
+                content: "✔";
+                position: absolute;
+                left: 0;
+                color: $secondary1;
+            }
+        }
+    }
+
+    .main__btn{
+        height: 20%;
+        width: 70%;
+        margin-bottom: 0;
+    }
+
+}
+

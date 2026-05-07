@@ -1,0 +1,8 @@
+.main__work-together {
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}/*# sourceMappingURL=work-together.css.map */

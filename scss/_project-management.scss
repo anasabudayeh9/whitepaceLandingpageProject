@@ -1,0 +1,13 @@
+.main{
+    &__project-management{
+        margin-top: 100px;
+        background: $secondary3;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        color: $secondary4;
+
+    }
+}

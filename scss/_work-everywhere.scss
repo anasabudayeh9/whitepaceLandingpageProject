@@ -1,0 +1,23 @@
+.main{
+    &__work-everywhere{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: start;
+        gap: 3rem;
+        padding-left: 1rem;
+        background: $primary1-color;
+        color: $secondary3;
+
+        h2{
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+        
+    }
+
+
+    
+}

@@ -1,0 +1,100 @@
+.main{
+    &__reviews{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background: $secondary3;
+        color: $secondary4;
+        flex-grow: 1;
+        height:100%;
+        padding-top: 10rem;
+    }
+
+    .dots{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 3rem auto;
+
+
+        li{
+            font-size: 8rem;
+            color: $primary2-color;
+        }
+
+        li:nth-child(2){
+            color: $primary1-color;
+        }
+    }
+}
+
+
+
+.review-card{
+    height: 100%;
+    position: relative;
+    background: $secondary3;
+    padding: 1rem;
+    border-radius: 20px;
+    justify-items: left;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+    &__title{
+        font-weight: 600;
+        text-align: left;
+        color: $primary1-color;
+        font-size: 5rem;
+
+    }
+
+    hr{
+        margin: 2rem auto;
+        color: $secondary4;
+        width: 100%;
+        font-weight: bolder;
+    }
+
+
+    &__message{
+            font-size: 1.4rem;
+            color: $secondary4;
+            text-align: left;
+            max-width: fit-content;
+        }
+
+        &__pic{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            
+        }
+
+        &__name{
+            font-size: 1.4rem;
+            color: $secondary4;
+            text-align: left;
+            font-weight: 700;
+        }
+
+        &__position{
+            font-size: 1.4rem;
+            color: $secondary4;
+            text-align: left;
+            max-width: fit-content;
+        }
+
+
+
+
+
+}
+
